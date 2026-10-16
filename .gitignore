@@ -1,0 +1,24 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+.venv/
+venv/
+env/
+
+# 竞赛附件数据（体积大，不入库；见 README「数据」一节）
+data/*
+!data/.gitkeep
+*.csv
+
+# 训练产物
+*.png
+*.h5
+*.keras
+saved_models/
+
+# 编辑器
+.idea/
+.vscode/
+*.swp
+.DS_Store
